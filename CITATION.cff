@@ -1,13 +1,25 @@
 # https://github.com/citation-file-format/citation-file-format
 cff-version: 1.2.0
 type: software
-#message: >-
-#  If you use this software,
-#  please put the copyright NOTICE.txt in your developments
-#  and cite it using metadata in this file.
+message: "An analytical tool for screening subsurface CO2 storage resources constrained by induced seismicity"
 title: "CO2BLOCKSEISM"
 authors:
-  - family-names: Rahimzadeh Kivi
+  - &IRKivi
+    family-names: Rahimzadeh Kivi
     given-names: Iman
     orcid: "https://orcid.org/0000-0002-7150-0411"
+preferred-citation:
+  authors:
+    - *IRKivi
+    - family-names: De Simone
+      given-names: Silvia
+    - family-names: Krevor
+      given-names: Samuel
+  title: "A simplified physics model for estimating subsurface CO2 storage resources constrained by fault slip potential"
+  type: unpublished
+  doi: "10.31223/X5KM65"
+  year: 2024
+  database: "EarthArXiv"
+license: MIT
+repository-code: "https://github.com/imanrahimzadeh/CO2BLOCKSEISM"
 # doi:
